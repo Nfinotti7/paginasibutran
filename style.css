@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=PT+Serif&family=Playfair+Display:wght@400;500;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(254, 248, 224);
+}
+
+header,
+.video,
+.descricao,
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  padding: 1rem 3rem;
+  font-size: 34px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.descricao {
+  background-color: aliceblue;
+  margin-top: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  border-radius: 10px;
+}
+
+.about a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bolder;
+  background-color: blue;
+  padding: 2rem;
+  border-radius: 7px;
+  transition: all 0.5s;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.about a:hover {
+  background-color: blueviolet;
+}
