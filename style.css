@@ -63,6 +63,10 @@ header span {
     text-align: center;
   }
 
+  .video video {
+    width: 350px;
+  }
+
   .descricao h3 {
     font-size: 28px;
   }
