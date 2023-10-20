@@ -18,6 +18,8 @@ header,
 }
 
 header h1 {
+  text-align: center;
+  text-transform: uppercase;
   padding: 1rem 3rem;
   font-size: 34px;
   border-radius: 10px;
@@ -25,7 +27,13 @@ header h1 {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
+header span {
+  color: orange;
+  font-weight: bold;
+}
+
 .descricao {
+  text-align: center;
   color: aliceblue;
   margin-top: 1rem;
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -48,4 +56,19 @@ header h1 {
 
 .about a:hover {
   background-color: blueviolet;
+}
+
+@media screen and (max-width: 417px) {
+  header {
+    text-align: center;
+  }
+
+  .descricao h3 {
+    font-size: 28px;
+  }
+  .about a {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+  }
 }
