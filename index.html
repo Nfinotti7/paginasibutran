@@ -9,18 +9,26 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-    />
+    />    
     <link rel="stylesheet" href="style.css" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script defer src="script.js" type="module"></script>
     <title>Emagreça já!</title>
   </head>
   <body>
     <header>
-      <h1>
+      <h5>
         Recupere sua alto estima <span>perdendo peso</span> sem dietas extremas.
       </h1>
     </header>
+    <section class="main">
     <div class="video">
-      <video autoplay controls src="./teste-sibutran.mp4" width="450"></video>
+      <video controls src="./teste-sibutran.mp4" width="450"></video>
     </div>
     <div class="descricao">
       <h3>
@@ -34,5 +42,64 @@
         >Quero Emagrecer!</a
       >
     </div>
+    </section>
+    <section class="slide">
+      <div class="container">
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide">
+      <img src="perfil1.jpg" alt="">
+      <h1>Renata Faria</h1>
+      <object data="fblogo.svg" width="50" height="50"></object>
+
+      <p>Muito bom! Não senti dor de cabeça ou mal estar como senti com outros remédios. Simplesmente perfeito.</p>
+
+      <a href="">Saiba mais</a>
+    </div>
+    <div class="swiper-slide"> <img src="perfil1.jpg" alt="">
+      <h1>Angela Fernandes</h1>
+      <object data="fblogo.svg" width="50" height="50"></object>
+
+      <p>Nem estou acreditando que voltei a usar minhas roupas que não serviam mais.</p>
+
+      <a href="">Saiba mais</a></div>
+    <div class="swiper-slide"> <img src="perfil1.jpg" alt="">
+      <h1>Renata Faria</h1>
+      <object data="instagram.svg" width="50" height="50"></object>
+
+      <p>Muito bom! Não senti dor de cabeça ou mal estar como senti com outros remédios. Simplesmente perfeito.</p>
+
+      <a href="">Saiba mais</a>
+    </div>
+    <div class="swiper-slide"> <img src="perfil1.jpg" alt="">
+      <h1>Renata Faria</h1>
+      <object data="fblogo.svg" width="50" height="50"></object>
+
+      <p>Muito bom! Não senti dor de cabeça ou mal estar como senti com outros remédios. Simplesmente perfeito.</p>
+
+      <a href="">Saiba mais</a></div>
+    <div class="swiper-slide"> <img src="perfil1.jpg" alt="">
+      <h1>Renata Faria</h1>
+      <object data="fblogo.svg" width="50" height="50"></object>
+
+      <p>Muito bom! Não senti dor de cabeça ou mal estar como senti com outros remédios. Simplesmente perfeito.</p>
+
+      <a href="">Saiba mais</a>
+    </div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+      </div>
+    </section>
+
   </body>
 </html>
